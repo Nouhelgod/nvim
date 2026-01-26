@@ -1,4 +1,5 @@
--- require("venv-selector").setup()
+-- DEPRECATED
+
 
 function get_python_path()
   -- Check for pyenv virtualenv in the current directory

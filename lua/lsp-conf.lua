@@ -1,7 +1,6 @@
 require("mason").setup()
 require("lsp-conform")
 
-
 vim.lsp.config("*", {
 	root_markers = { ".git" },
 })
@@ -11,17 +10,15 @@ vim.lsp.enable("stylua")
 
 -- Python
 vim.lsp.enable("ty")
--- vim.lsp.enable("pylint")
--- vim.lsp.config("pylint", {})
--- vim.lsp.config("black", {})
--- vim.lsp.enable("black")
 
 -- JavaScript
 vim.lsp.enable("biome")
 
 -- HTML
 vim.lsp.enable("html-lsp")
-vim.lsp.config("html-lsp", {})
+vim.lsp.config("html-lsp", {
+	-- TODO: There must be .jinja extension trigger
+})
 
 vim.lsp.enable("jinja-lsp")
 vim.lsp.config("jinja-lsp", {})
