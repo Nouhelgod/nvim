@@ -30,6 +30,7 @@ vim.cmd([[
   Plug 'goolord/alpha-nvim'
   Plug 'stevearc/conform.nvim'
   Plug 'mfussenegger/nvim-lint'
+  Plug 'NeogitOrg/neogit'
 
   call plug#end()
 ]])
