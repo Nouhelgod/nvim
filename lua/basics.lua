@@ -9,7 +9,7 @@ vim.opt.ignorecase = true
 vim.opt.termguicolors = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.scrolloff = 15
-vim.opt.sidescrolloff = 3
+vim.opt.sidescrolloff = 30
 vim.opt.wrap = false
 vim.opt.cursorline = true
 
@@ -19,7 +19,7 @@ vim.opt.listchars = {
 	trail = "·",
 	space = " ",
 	extends = ">",
-	precedes = "<",
+    precedes = "<",
 }
 
 -- Intend blank line
