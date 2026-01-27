@@ -33,6 +33,7 @@ vim.cmd([[
   Plug 'NeogitOrg/neogit'
   Plug 'romgrk/barbar.nvim'
   Plug 'lewis6991/gitsigns.nvim'
+  Plug 'sindrets/diffview.nvim'
 
   call plug#end()
 ]])
