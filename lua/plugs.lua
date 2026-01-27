@@ -31,6 +31,8 @@ vim.cmd([[
   Plug 'stevearc/conform.nvim'
   Plug 'mfussenegger/nvim-lint'
   Plug 'NeogitOrg/neogit'
+  Plug 'romgrk/barbar.nvim'
+  Plug 'lewis6991/gitsigns.nvim'
 
   call plug#end()
 ]])
