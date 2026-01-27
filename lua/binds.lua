@@ -14,3 +14,4 @@ vim.keymap.set("n", "<C-r>", ":source /home/colada/.config/nvim/init.lua<CR>", {
 vim.keymap.set("n", "L", ":Neotree action=focus toggle=true<CR>", { desc = "Open filetree" })
 vim.keymap.set("n", "<C-Tab>", "<C-w>w", { desc = "Switch active window" })
 vim.keymap.set("n", "<C-h>", ":Alpha<CR>", { desc = "Home screen" })
+vim.keymap.set("n", "<space>gg", ":Neogit<CR>", {desc = "Git manager"})
