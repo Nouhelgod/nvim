@@ -1,5 +1,6 @@
 -- stylua: ignore start
 -- NOTE: Some keybinds might exceed max line length rule
+local macro = require("macro")
 
 vim.cmd("command! PIN PlugInstall")
 vim.keymap.set("n", "<space>cc", vim.lsp.buf.hover, {})
@@ -15,3 +16,5 @@ vim.keymap.set("n", "L", ":Neotree action=focus toggle=true<CR>", { desc = "Open
 vim.keymap.set("n", "<C-Tab>", "<C-w>w", { desc = "Switch active window" })
 vim.keymap.set("n", "<C-h>", ":Alpha<CR>", { desc = "Home screen" })
 vim.keymap.set("n", "<space>gg", ":Neogit<CR>", {desc = "Git manager"})
+vim.keymap.set("n", "<space>gu", macro.uv_run, { desc = "Split & run main.py"})
+
