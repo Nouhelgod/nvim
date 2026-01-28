@@ -10,6 +10,7 @@ require("autocomp-conf")
 require("hardtime-conf")
 require("alpha-conf")
 require("neotree-conf")
+require("barbar-conf")
 
 vim.diagnostic.enable = true
 vim.diagnostic.config({
